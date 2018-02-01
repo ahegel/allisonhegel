@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<!--
+	Theme: Editorial by HTML5 UP
+-->
+<html>
+	<head>
+		<title>Allison Hegel</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Allison Hegel</h1>
+											<p>phd candidate, data scientist,<br />machine learner, python programmer</p>
+										</header>
+										<p><strong>Insight Data Science Fellow</strong> specializing in textual data analysis with<br /><strong>6+ years</strong> of professional and academic experience turning data into a compelling story for both technical and non-technical audiences.</p>
+                                        <p>Domain expertise applying <strong>machine learning</strong> and <strong>natural language processing</strong> to product reviews to better understand user behavior and preferences using <strong>Python, SQL, HTML/CSS, and Tableau</strong>.</p>
+                                        <p>Experience presenting data analysis results and training at<br /><a href="resume.html#speaking">12 international conferences</a> and universities, <a href="resume.html#teaching">teaching 6 classes</a>, and winning <a href="resume.html#awards">19 grants and awards</a>.</p>
+									</div>
+									<span class="image object">
+										<img src="images/bookstacks.jpg" alt="Bookstacks with overlaid graph" />
+									</span>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major" id="projects">
+										<h2>Projects</h2>
+									</header>
+                                    <div id="machinelearning">
+                                        <h2>Machine Learning</h2>
+                                        <div class="posts">
+                                            <article>
+                                                <a href="http://game-dev-dashboard.herokuapp.com/" class="image"><img src="images/game-dev-dashboard.png" alt="Landing page of Game Developer Dashboard web app." /></a>
+                                                <h3>Game Developer Dashboard</h3>
+                                                <p>A web app that helps game developers design their marketing strategy, powered by a logistic regression model in <strong>Python (sklearn)</strong> that predicts the success of a video game with 90% accuracy and identifies the language reviewers use to talk about successful video games. I deployed the model as an interactive web app using <strong>Flask, Bootstrap, and Bokeh</strong>.</p>
+                                                <ul class="actions">
+                                                    <li><a href="http://game-dev-dashboard.herokuapp.com/" class="button">Flask App</a></li>
+                                                    <li><a href="https://docs.google.com/presentation/d/1FO3z58B5ZlaXBra4dP1k9NCarQmSanOcmk7ZG0AiyGE/present?slide=id.p" class="button">Slides</a></li>
+                                                </ul>
+                                            </article>
+                                            <article>
+                                                <a href="https://github.com/ahegel/genre-ML-classification" class="image"><img src="images/classification_boxplot.png" alt="Box and whisker plot of genre classification accuracy." /></a>
+                                                <h3>Classifying Genre with Machine Learning</h3>
+                                                <p>I used a <strong>support vector model</strong> in <strong>Python (sklearn)</strong> to classify Goodreads book reviews based on genre, revealing the associated vocabulary of user reviews for each genre and trends in word use over time.</p>
+                                                <ul class="actions">
+                                                    <li><a href="https://github.com/ahegel/genre-ML-classification" class="button">GitHub</a></li>
+                                                </ul>
+                                            </article>
+                                            <article>
+                                                <a href="https://github.com/ahegel/genre-ML-clustering" class="image"><img src="images/cluster_scatterplot.png" alt="Scatterplot with genre clusters." /></a>
+                                                <h3>Clustering Genres with Machine Learning</h3>
+                                                <p>I implemented the <strong>t-SNE algorithm</strong> in <strong>Python (sklearn)</strong> to cluster high-dimensional, sparse textual data derived from Goodreads users' shelving activity, identifying latent genres that better represent user activity than traditional product categories.</p>
+                                                <ul class="actions">
+                                                    <li><a href="https://github.com/ahegel/genre-ML-clustering" class="button">GitHub</a></li>
+                                                </ul>
+                                            </article>
+                                            <article>
+                                                <a href="#" class="image"><img src="images/genre_topic_classification.png" alt="Bar chart comparing proportions of each topic." /></a>
+                                                <h3>Supervised Topic Classification</h3>
+                                                <p>I used a <strong>support vector model</strong> in <strong>Python (sklearn)</strong> to classify the topic of book review sentences, identifying what reviewers are most concerned about on different websites and within different product categories.</p>
+                                                <ul class="actions">
+                                                    <!--<li><a href="#" class="button">GitHub</a></li>-->
+                                                </ul>
+                                            </article>                                            <article>
+                                                <a href="https://github.com/ahegel/yelp-dataset" class="image"><img src="images/yelp_rmse.png" alt="Chart of max features and RMSE for Yelp project." /></a>
+                                                <h3>Predicting Star Ratings on Yelp</h3>
+                                                <p>Which business attributes have the greatest impact on a Yelp business' star rating? Using a variety of <strong>regression models</strong> in <strong>Python (sklearn)</strong>, I was able to predict (within about 0.75 stars accuracy) a business' star rating given only its business attributes on Yelp.</p>
+                                                <ul class="actions">
+                                                    <li><a href="https://github.com/ahegel/yelp-dataset" class="button">GitHub</a></li>
+                                                </ul>
+                                            </article>
+                                        </div>
+                                    </div>
+
+                                    <hr class="major" />
+
+                                    <div id="nlp">
+                                        <h2>Natural Language Processing</h2>
+                                        <div class="posts">
+                                            <article>
+                                                <a href="https://github.com/ahegel/processing-plot" class="image"><img src="images/plot_sparklines.png" alt="Sparklines showing character presence over time in plot summaries from three sources." /></a>
+                                                <h3>Extracting Events from Plot Summaries with NLP</h3>
+                                                <p>I used natural language processing to identify characters and plot events in book reviews, revealing the themes reviewers care about most. I conducted the analysis in <strong>Python</strong>, using <strong>Stanford CoreNLP</strong> to parse sentence grammar.</p>
+                                                <ul class="actions">
+                                                    <li><a href="https://github.com/ahegel/processing-plot" class="button">GitHub</a></li>
+                                                </ul>
+                                            </article>
+                                            <article>
+                                                <a href="https://github.com/ahegel/collocations" class="image"><img src="images/collocations.png" alt="Sparklines showing character presence over time in plot summaries from three sources." /></a>
+                                                <h3>Text Analysis with Collocations</h3>
+                                                <p>I wrote a script to find the most common collocations in a text. I walked through implementing the analysis with a class of undergraduates as part of "Collocations Analysis: A Hands-On Workshop," which I ran with Matthew Lavin at the University of Pittsburgh on April 7, 2017.</p>
+                                                <ul class="actions">
+                                                    <li><a href="https://github.com/ahegel/collocations" class="button">GitHub</a></li>
+                                                </ul>
+                                            </article>
+                                        </div>
+                                    </div>
+
+                                    <hr class="major" />
+
+                                    <div id="recommendation">
+                                        <h2>Recommendation</h2>
+                                        <div class="posts">
+                                            <article>
+                                                <a href="https://github.com/JCSchiavone/book-recommendations" class="image"><img src="images/booksplice.png" alt="" /></a>
+                                                <h3>BookSplice</h3>
+                                                <p>On a team of 5 developers, we created a website that recommends books to users based on sentiment analysis of book reviews. I scraped and cleaned the book review database and implemented the sentiment analysis code using <strong>Python (Scrapy and NLTK) and SQL</strong>.</p>
+                                                <ul class="actions">
+                                                    <li><a href="https://github.com/JCSchiavone/book-recommendations" class="button">GitHub</a></li>
+                                                </ul>
+                                            </article>
+                                        </div>
+									</div>
+
+                                    <hr class="major" />
+
+                                    <div id="datavisualization">
+                                        <h2>Data Visualization</h2>
+                                        <div class="posts">
+                                            <article>
+                                                <a href="sunburst.html" class="image"><img src="images/amazon_sunburst.png" alt="" /></a>
+                                                <h3>Amazon Product Categories</h3>
+                                                <p>I designed an interactive sunburst chart of Amazon product categories using <strong>D3.js</strong> to display the magnitude of each category and sub-category of books sold on the site.</p>
+                                                <ul class="actions">
+                                                    <li><a href="sunburst.html" class="button">Try It</a></li>
+                                                </ul>
+                                            </article>
+                                            <article>
+                                                <a href="https://public.tableau.com/profile/allison2817#!/" class="image"><img src="images/tableau_tweet_polarity.png" alt="Scatterplot of tweet polarity over time during the Boston Protests." /></a>
+                                                <h3>Tableau</h3>
+                                                <p>I've used Tableau in a variety of projects to visualize data in <strong>interactive dashboards, charts, time series, and maps</strong>.</p>
+                                                <ul class="actions">
+                                                    <li><a href="https://public.tableau.com/profile/allison2817#!/" class="button">Tableau Public</a></li>
+                                                </ul>
+                                            </article>
+                                        </div>
+									</div>
+
+                                    <hr class="major" />
+
+                                    <div id="webdev">
+                                        <h2>Web Development</h2>
+                                        <div class="posts">
+                                            <article>
+                                                <a href="http://cruikshank.ucla.edu/" class="image"><img src="images/cruikshank.png" alt="Thumbnail image of the Cruikshank Digital Archive website." /></a>
+                                                <h3>Cruikshank Digital Archive</h3>
+                                                <p>I led the technical development of a website making hundreds of 19th-century illustrations easily accessible, using <strong>HTML, CSS, and D3.js</strong>.</p>
+                                                <ul class="actions">
+                                                    <li><a href="http://cruikshank.ucla.edu/" class="button">Visit</a></li>
+                                                </ul>
+                                            </article>
+                                            <article>
+                                                <a href="https://github.com/ahegel/programming-historian-redesign" class="image"><img src="images/PH.png" alt="Thumbnail image of the Programming Historian website." /></a>
+                                                <h3>Programming Historian Visual Redesign</h3>
+                                                <p>As General Editor of the <a href="https://programminghistorian.org/lessons/">Programming Historian</a>, I designed and implemented a visual redesign of the  lessons page using <strong>HTML and CSS</strong>.</p>
+                                                <ul class="actions">
+                                                    <li><a href="https://github.com/ahegel/programming-historian-redesign" class="button">GitHub</a></li>
+                                                </ul>
+                                            </article>
+                                            <article>
+                                                <a href="https://github.com/ahegel/udacity-full-stack-nanodegree" class="image"><img src="images/udacity.png" alt="" /></a>
+                                                <h3>Udacity Full-Stack Nanodegree</h3>
+                                                <p>As part of the nanodegree, I've completed several projects that demonstrate my knowledge of <strong>SQL, HTML, CSS, and Bootstrap</strong>.</p>
+                                                <ul class="actions">
+                                                    <li><a href="https://github.com/ahegel/udacity-full-stack-nanodegree" class="button">GitHub</a></li>
+                                                </ul>
+                                            </article>
+                                        </div>
+									</div>
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+                                    <img src="images/avatar.png" alt="Portrait photo of Allison Hegel." />
+                                    <header>
+                                        <h4>I'm <strong>Allison Hegel</strong>, a data scientist finishing up my PhD in the SF Bay area. I'm into natural language processing, machine learning, and the human side<br />of data.</h4>
+                                        <ul class="icons">
+                                            <li><a href="https://github.com/ahegel" class="icon fa-github"><span class="label"></span></a></li>
+                                            <li><a href="https://www.linkedin.com/in/ahegel/" class="icon fa-linkedin"><span class="label"></span></a></li>
+                                            <li><a href="https://twitter.com/AllisonHegel" class="icon fa-twitter"><span class="label"></span></a></li>
+                                        </ul>
+                                    </header>
+									<ul>
+										<li><a href="index.html">Home</a></li>
+                                        <li><a href="resume.html">Resume</a></li>
+										<li>
+											<span class="opener">Projects</span>
+											<ul>
+												<li><a href="#machinelearning">Machine Learning</a></li>
+                                                <li><a href="#nlp">Natural Language Processing</a></li>
+                                                <li><a href="#recommendation">Recommendation</a></li>
+												<li><a href="#datavisualization">Data Visualization</a></li>
+												<li><a href="#webdev">Web Development</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
